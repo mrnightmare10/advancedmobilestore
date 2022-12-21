@@ -18,13 +18,16 @@ module.exports = {
     domains: ['cdn.sanity.io'],
   },
 
-  async rewrites() {
+  async headers() {
     return [
       {
-        source: '/api/:path*',
-        destination: 'https://advancedmobilestore.vercel.app/:path*',
+        source: "/_next/:path*",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "https://advancedmobilestore.vercel.app" },
+        ],
       },
     ]
   },
+
 
 };
