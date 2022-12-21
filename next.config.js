@@ -17,4 +17,14 @@ module.exports = {
   images: {
     domains: ['cdn.sanity.io'],
   },
+
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://advancedmobilestore.vercel.app/:path*',
+      },
+    ]
+  },
+
 };
