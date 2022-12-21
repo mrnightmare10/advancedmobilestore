@@ -23,7 +23,7 @@ module.exports = {
       {
         source: "/_next/:path*",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://iwhqukdl.apicdn.sanity.io/v2022-02-03/data/query/production?query=*%5B_type%20%3D%3D%20%22product%22%5D" },
+          { key: "Access-Control-Allow-Origin", value: "https://localhost:3000" },
         ],
       },
     ]
