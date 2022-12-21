@@ -22,7 +22,7 @@ module.exports = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://advancedmobilestore.vercel.app/:path*',
+        destination: 'https://iwhqukdl.apicdn.sanity.io/v2022-02-03/data/query/production?query=*%5B_type%20%3D%3D%20%22product%22%5D/:path*',
       },
     ]
   },
