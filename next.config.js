@@ -17,18 +17,14 @@ module.exports = {
   images: {
     domains: ['cdn.sanity.io'],
   },
-
-  async headers() {
+  
+  async rewrites() {
     return [
       {
-        source: "/_next/:path*",
-        headers: [
-          { key: "Access-Control-Allow-Origin", value: "http://localhost:3000" },
-          { key: "Access-Control-Allow-Origin", value: "http://localhost:4000" },
-        ],
-      },
+        source: '/api/:path*',
+        destination: 'http://localhost:3000/:path*'
+      }
     ]
   },
-
-
+  
 };
