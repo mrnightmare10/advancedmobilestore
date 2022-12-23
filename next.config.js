@@ -4,7 +4,7 @@ module.exports = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://localhos:3000/:path*',
+        destination: 'https://advancedmobilestore.vercel.app/:path*',
       },
     ]
   },
