@@ -21,7 +21,7 @@ module.exports = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://localhost:4000/:path*'
+        destination: 'http://vercel.com/mrnightmare10/:path*'
       }
     ]
   },
