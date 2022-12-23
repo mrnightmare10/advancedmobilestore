@@ -23,7 +23,7 @@ module.exports = {
       {
         source: "/_next/:path*",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://advancedmobilestore.vercel.app/" },
+          { key: "Access-Control-Allow-Origin", value: "http://localhost:3000" },
         ],
       },
     ]
