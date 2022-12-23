@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "proxy": "http://localhost:3000",
+=======
+  "proxy": "http://localhost:4000",
+>>>>>>> f1f9eaa8d374182fff39946d5ef22318d3f12af1
   "name": "sanity-amazona",
   "private": true,
   "scripts": {
