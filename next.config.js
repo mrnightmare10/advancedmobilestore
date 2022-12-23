@@ -24,6 +24,7 @@ module.exports = {
         source: "/_next/:path*",
         headers: [
           { key: "Access-Control-Allow-Origin", value: "http://localhost:3000" },
+          { key: "Access-Control-Allow-Origin", value: "http://localhost:4000" },
         ],
       },
     ]
